@@ -28,7 +28,7 @@ MFB AD 后台 KYC Verification 的 Customer List 里，自动审核单和需要�
 
 ## 四、需求说明
 
-演示DEMO：`kyc-verification-admin-demo`（本地运行 `run.bat`，打开 http://127.0.0.1:8090）
+演示DEMO：https://kyc-verification-admin-demo.pages.dev/
 
 审核详情页、REVIEW LIST / REPORT / THREE-PARTY VERIFICATION 三个页签保持线上不变。
 
