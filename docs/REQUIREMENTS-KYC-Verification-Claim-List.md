@@ -28,14 +28,14 @@ MFB AD 后台 KYC Verification 的 Customer List 里，自动审核单和需要�
 
 ## 四、需求说明
 
-演示DEMO：https://kyc-verification-admin-demo.pages.dev/
+演示DEMO：https://addemo.desmond.ink/
 
 审核详情页、REVIEW LIST / REPORT / THREE-PARTY VERIFICATION 三个页签保持线上不变。
 
 ### 4.1 Customer List 筛选区
 
 图注：Customer List 默认视图（只显示需要人工审核的单）
-![Customer List 默认视图](images/customer-list-manual.png)
+![Customer List 默认视图](https://documents-exchange.oss-cn-beijing.aliyuncs.com/projects/kyc-verification-claim-list/assets/20261106_customer-list-manual_3408.png)
 
 - **Review Type**（新增，放在筛选区最前面）
   - 两个选项：`Manual Review`（默认选中）、`All`。
@@ -65,7 +65,7 @@ MFB AD 后台 KYC Verification 的 Customer List 里，自动审核单和需要�
 - **reset**（新增）：恢复默认，即 `Manual Review` + `available` + 最近 7 天，清空输入框。
 
 图注：手机号检索（输入 08023029847 命中 +2348023****47）
-![手机号检索](images/phone-search.png)
+![手机号检索](https://documents-exchange.oss-cn-beijing.aliyuncs.com/projects/kyc-verification-claim-list/assets/20261106_phone-search_bbbf.png)
 
 ### 4.2 顶部统计
 
@@ -75,7 +75,7 @@ MFB AD 后台 KYC Verification 的 Customer List 里，自动审核单和需要�
 ### 4.3 列表
 
 图注：Review Type 切到 All 时人工单和自动单都显示，只有人工单有 Claim
-![Review Type 为 All 时的列表](images/customer-list-all.png)
+![Review Type 为 All 时的列表](https://documents-exchange.oss-cn-beijing.aliyuncs.com/projects/kyc-verification-claim-list/assets/20261106_customer-list-all_b399.png)
 
 - **列**：保持线上 `Date / userId / Name / Phone / KYC / Status / KycCompliance / Operate`，不新增列。
 - **排序**：按工单创建时间倒序，保持线上。
